@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="395.294px" height="500px" viewBox="0 0 395.294 500" enable-background="new 0 0 395.294 500" xml:space="preserve">
+<title>bm-pdf-download</title>
+<desc>Created with Sketch.</desc>
+<g id="pdf-download">
+	<g id="Group-6-Copy">
+		<g id="Group-Copy">
+		</g>
+		<path id="Shape" d="M379.482,500H15.812C7.079,500,0,492.837,0,484V16C0,7.164,7.079,0,15.812,0h270.282v91.14
+			c0,10.692,8.566,19.36,19.133,19.36h90.067V484C395.294,492.837,388.215,500,379.482,500z"/>
+		<path id="PDF" fill="#F4F3F0" d="M111.553,275.952H88.541v33.571H70.894v-90h40.659c22.588,0,35.718,10.286,35.718,28.143
+			S134.141,275.952,111.553,275.952z M88.541,261.381h22.306c12.564,0,19.2-4.285,19.2-13.714c0-9.286-6.635-13.571-19.2-13.571
+			H88.541V261.381z M163.083,309.523v-90h35.859c29.223,0,47.717,16.857,47.717,45s-18.494,45-47.717,45H163.083z M180.871,295.096
+			h16.518c19.764,0,30.776-11.286,30.776-30.715c0-19.143-11.012-30.429-30.776-30.429h-16.518V295.096z M281.953,309.523h-17.647
+			v-90h69.741v15.286h-52.094v22.429h40.094v15.143h-40.094V309.523z"/>
+		<path id="Path" d="M296.471,84V0l98.823,100h-83.012C303.55,100,296.471,92.836,296.471,84z"/>
+	</g>
+</g>
+</svg>

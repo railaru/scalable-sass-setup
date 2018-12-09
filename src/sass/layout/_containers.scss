@@ -1,0 +1,46 @@
+//all devices
+.boxy{
+    height: 100px;
+    border: 1px solid red;
+}
+
+
+//mobile
+
+.wrapper{
+    margin: 0 auto;
+    .container{
+        margin: 0 $mobile-side-margin;
+        .container__inner{
+            margin: 0 auto;
+        }
+    }
+}
+
+//tablet
+@media (min-width: $breakpoint-medium){
+    .wrapper{
+        margin: 0 auto;
+        .container{
+            margin: 0 80px;
+            .container__inner{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+//desktop
+@media (min-width: $breakpoint-large){
+    .wrapper{
+        max-width: $wrapper-desktop-max-width + $desktop-side-margin * 2;
+        margin: 0 auto;
+        .container{
+            margin: 0 $desktop-side-margin;
+            .container__inner{
+                max-width: $desktop-inner-content-width;
+                margin: 0 auto;
+            }
+        }
+    }
+}

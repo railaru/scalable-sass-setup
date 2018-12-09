@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>bm-login-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="login-active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" fill="#000000">
+            <path d="M250,250 C319.063,250 375,194.062 375,125 C375,55.938 319.063,0 250,0 C180.937,0 125,55.938 125,125 C125,194.062 180.937,250 250,250" id="Fill-1"></path>
+            <path d="M250,281.25 C166.562,281.25 0,323.125 0,406.25 L0,500 L500,500 L500,406.25 C500,323.125 333.438,281.25 250,281.25" id="Fill-3"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="281.25px" height="500px" viewBox="0 0 281.25 500" enable-background="new 0 0 281.25 500" xml:space="preserve">
+<filter  height="101.3%" width="100.4%" id="filter-4" filterUnits="objectBoundingBox" x="-0.2%" y="-0.3%">
+	<feOffset  dy="1" dx="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feColorMatrix  type="matrix" values="0 0 0 0 1   0 0 0 0 0.999936521   0 0 0 0 1  0 0 0 1 0" in="shadowOffsetOuter1">
+		</feColorMatrix>
+</filter>
+<filter  height="101.3%" width="100.4%" id="filter-2" filterUnits="objectBoundingBox" x="-0.2%" y="-0.3%">
+	<feOffset  dy="1" dx="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feColorMatrix  type="matrix" values="0 0 0 0 1   0 0 0 0 0.999936521   0 0 0 0 1  0 0 0 1 0" in="shadowOffsetOuter1">
+		</feColorMatrix>
+</filter>
+<title>bm-dropdown</title>
+<desc>Created with Sketch.</desc>
+<g id="dropdown">
+	<g id="Triangles-Copy-5" transform="translate(-4.000000, 0.000000)">
+		<g id="Triangle">
+			<g filter="url(#filter-2)">
+				<polygon id="path-1_2_" points="144.625,500 285.25,343.75 4,343.75 				"/>
+			</g>
+			<g>
+				<polygon id="path-1_1_" points="144.625,500 285.25,343.75 4,343.75 				"/>
+			</g>
+		</g>
+		<g id="Triangle_1_">
+			<g filter="url(#filter-4)">
+				<polygon id="path-3_2_" points="144.625,0 285.25,156.25 4,156.25 				"/>
+			</g>
+			<g>
+				<polygon id="path-3_1_" points="144.625,0 285.25,156.25 4,156.25 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

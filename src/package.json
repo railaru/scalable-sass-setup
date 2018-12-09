@@ -1,0 +1,27 @@
+{
+  "name": "gulp-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rutenis Raila",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "concat": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-iconfont-css": "^2.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {}
+}

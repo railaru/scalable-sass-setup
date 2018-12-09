@@ -1,0 +1,76 @@
+//colour variables ==========================================================================
+$color-a:    #fff;
+$color-b:    #000;
+$color-c:    beige;
+$color-d:    yellow;
+$color-e:    orange;
+$color-f:    green;
+$color-g:    aqua;
+$color-h:    pink;
+$color-i:    red;
+$color-j:    blue;
+
+//set background colour ==========================================================================
+.bg-a{ background: $color-a;}
+.bg-b{ background: $color-b;}
+.bg-c{ background: $color-c;}
+.bg-d{ background: $color-d;}
+.bg-e{ background: $color-e;}
+.bg-f{ background: $color-f;}
+.bg-g{ background: $color-g;}
+.bg-h{ background: $color-h;}
+.bg-i{ background: $color-i;}
+.bg-j{ background: $color-j;}
+
+//set text colour ==========================================================================
+.color-a{ color: $color-a;}
+.color-b{ color: $color-b;}
+.color-c{ color: $color-c;}
+.color-d{ color: $color-d;}
+.color-e{ color: $color-e;}
+.color-f{ color: $color-f;}
+.color-g{ color: $color-g;}
+.color-h{ color: $color-h;}
+.color-i{ color: $color-i;}
+.color-j{ color: $color-j;}
+
+//change background colour on hover ==========================================================================
+
+@mixin hover-bg($color){
+    transition: $hover-transition;
+    &:hover{
+        transition: $hover-transition;
+        background: $color;
+    }
+}
+
+.hover-bg-a{ @include hover-bg($color-a);}
+.hover-bg-b{ @include hover-bg($color-b);}
+.hover-bg-c{ @include hover-bg($color-c);}
+.hover-bg-d{ @include hover-bg($color-d);}
+.hover-bg-e{ @include hover-bg($color-e);}
+.hover-bg-f{ @include hover-bg($color-f);}
+.hover-bg-g{ @include hover-bg($color-g);}
+.hover-bg-h{ @include hover-bg($color-h);}
+.hover-bg-i{ @include hover-bg($color-i);}
+.hover-bg-j{ @include hover-bg($color-j);}
+
+//change text colour on hover ========================================================================== 
+
+@mixin hover-color($color){
+    transition: $hover-transition;
+    &:hover{
+        transition: $hover-transition;
+        color:      $color;
+    }
+}
+.hover-color-a{ @include hover-color($color-a);}
+.hover-color-b{ @include hover-color($color-b);}
+.hover-color-c{ @include hover-color($color-c);}
+.hover-color-d{ @include hover-color($color-d);}
+.hover-color-e{ @include hover-color($color-e);}
+.hover-color-f{ @include hover-color($color-f);}
+.hover-color-g{ @include hover-color($color-g);}
+.hover-color-h{ @include hover-color($color-h);}
+.hover-color-i{ @include hover-color($color-i);}
+.hover-color-j{ @include hover-color($color-j);}

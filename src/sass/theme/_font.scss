@@ -1,0 +1,56 @@
+@font-face{
+    font-family: 'Founders Grotesk';
+    src: url("../../dist/fonts/founders-grotesk/FoundersGroteskText-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: 'Portrait Text';
+    src: url("../../../dist/fonts/portrait-text/PortraitText-Regular.otf") format("opentype");
+}
+
+$font-family-a: 'Founders Grotesk', Arial, Helvetica, sans-serif;
+$font-family-b: 'Portrait Text', 'Times New Roman', Times, serif;
+
+//mobile
+.font-a{
+    font-family: $font-family-a;
+    font-size: 14px;
+}
+.font-b{
+    font-family: $font-family-b;
+    font-size: 14px;
+}
+.font-b--line-height{
+    font-family: $font-family-b;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+//tablet
+@media (min-width: 640px){
+    .font-a{
+        font-size: 16px;
+    }   
+    .font-b{
+        font-size: 16px;
+    }       
+    .font-b--line-height{
+        font-family: $font-family-b;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+//desktop
+@media (min-width: 1024px){
+    .font-a{
+        font-size: 18px;
+    }   
+    .font-b{
+        font-size: 18px;
+    }   
+    .font-b--line-height{
+        font-family: $font-family-b;
+        font-size: 18px;
+        line-height: 35px;
+    }
+}

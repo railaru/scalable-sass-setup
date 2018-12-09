@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="457.697px" height="500px" viewBox="0 0 457.697 500" enable-background="new 0 0 457.697 500" xml:space="preserve">
+<title>bm-date</title>
+<desc>Created with Sketch.</desc>
+<g id="date">
+	<g id="Group-7-Copy">
+		<path id="Shape" d="M108.131,90.909h12.586c9.164,0,16.592-7.945,16.592-17.745V17.745c0-9.8-7.428-17.745-16.592-17.745h-12.586
+			C98.968,0,91.54,7.945,91.54,17.745v55.419C91.54,82.964,98.968,90.909,108.131,90.909z"/>
+		<g id="Group-3" transform="translate(0.000000, 31.250000)">
+			<rect id="Rectangle-path" y="150.568" width="457.697" height="318.182"/>
+			<path id="Shape_1_" d="M393.432,14.205v26.299c0,15.574-15.295,28.247-34.093,28.247h-25.863
+				c-18.797,0-34.092-12.672-34.092-28.247V14.205H155.178v26.299c0,15.574-15.294,28.247-34.092,28.247H95.223
+				c-18.797,0-34.092-12.672-34.092-28.247V14.205H0v90.909h457.697V14.205H393.432z"/>
+		</g>
+		<path id="Shape_2_" d="M336.979,90.909h12.587c9.163,0,16.591-7.945,16.591-17.745V17.745c0-9.8-7.428-17.745-16.591-17.745
+			h-12.587c-9.163,0-16.592,7.945-16.592,17.745v55.419C320.388,82.964,327.816,90.909,336.979,90.909z"/>
+	</g>
+</g>
+</svg>

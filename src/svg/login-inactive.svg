@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>bm-login-inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="login-inactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(0.000000, -1.000000)" fill="#000000">
+            <path d="M438,437.5 L63,437.5 L63,406.563 C69.25,384.062 166.125,343.75 250.5,343.75 C334.875,343.75 431.75,384.062 438,406.25 L438,437.5 Z M250,281.25 C166.563,281.25 0,323.125 0,406.25 L0,500.5 L500,500.5 L500,406.25 C500,323.125 333.437,281.25 250,281.25 Z" id="Fill-1"></path>
+            <path d="M250.5,62.5 C284.875,62.5 313,90.625 313,125 C313,159.375 284.875,187.5 250.5,187.5 C216.125,187.5 188,159.375 188,125 C188,90.625 216.125,62.5 250.5,62.5 M250.5,250 C319.563,250 375.5,194.062 375.5,125 C375.5,55.938 319.563,0 250.5,0 C181.437,0 125.5,55.938 125.5,125 C125.5,194.062 181.437,250 250.5,250" id="Fill-3"></path>
+        </g>
+    </g>
+</svg>

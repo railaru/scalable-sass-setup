@@ -1,0 +1,1 @@
+console.log('custom js 2 file');

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>bm-shopbasket-inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="shopbasket-inactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" fill="#000000">
+            <path d="M400,400 C372.5,400 350.25,422.5 350.25,450 C350.25,477.5 372.5,500 400,500 C427.5,500 450,477.5 450,450 C450,422.5 427.5,400 400,400" id="Fill-1"></path>
+            <path d="M150,400 C122.5,400 100.25,422.5 100.25,450 C100.25,477.5 122.5,500 150,500 C177.5,500 200,477.5 200,450 C200,422.5 177.5,400 150,400" id="Fill-3"></path>
+            <path d="M129,100 L432.75,100 L363.75,225 L188.25,225 L129,100 Z M363.75,275 C382.5,275 399,264.75 407.5,249.25 L497,87 C506.25,70.5 494.25,50 475.25,50 L105.25,50 L81.75,0 L0,0 L0,50 L50,50 L140,239.75 L106.25,300.75 C88,334.25 112,375 150,375 L450,375 L450,325 L150,325 L177.5,275 L363.75,275 Z" id="Fill-5"></path>
+        </g>
+    </g>
+</svg>

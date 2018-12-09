@@ -1,0 +1,488 @@
+@font-face {
+    font-family: "icons";
+    src: url('../fonts/icons/icons.eot');
+    src: url('../fonts/icons/icons.eot?#iefix') format('eot'),
+    url('../fonts/icons/icons.woff2') format('woff2'),
+    url('../fonts/icons/icons.woff') format('woff'),
+    url('../fonts/icons/icons.ttf') format('truetype'),
+    url('../fonts/icons/icons.svg#icons') format('svg');
+  }
+  
+  @mixin icon-styles {
+    font-family: "icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+    text-decoration: none;
+    text-transform: none;
+  }
+  
+  %icon {
+    @include icon-styles;
+  }
+  
+  @function icon-char($filename) {
+  $char: "";
+  
+    @if $filename == arrow-left {
+      $char: "\E001";
+    }
+    @if $filename == arrow-right {
+      $char: "\E002";
+    }
+    @if $filename == bc-logo {
+      $char: "\E003";
+    }
+    @if $filename == BC_Email {
+      $char: "\E004";
+    }
+    @if $filename == BC_Facebook {
+      $char: "\E005";
+    }
+    @if $filename == BC_Twitter {
+      $char: "\E006";
+    }
+    @if $filename == bm-logo-sticky {
+      $char: "\E007";
+    }
+    @if $filename == bm-logo {
+      $char: "\E008";
+    }
+    @if $filename == button-arrow-left {
+      $char: "\E009";
+    }
+    @if $filename == button-arrow-right {
+      $char: "\E00A";
+    }
+    @if $filename == carousel-indicator {
+      $char: "\E00B";
+    }
+    @if $filename == clear-search {
+      $char: "\E00C";
+    }
+    @if $filename == close-overlay {
+      $char: "\E00D";
+    }
+    @if $filename == date {
+      $char: "\E00E";
+    }
+    @if $filename == dropdown {
+      $char: "\E00F";
+    }
+    @if $filename == email {
+      $char: "\E010";
+    }
+    @if $filename == facebook {
+      $char: "\E011";
+    }
+    @if $filename == favicon {
+      $char: "\E012";
+    }
+    @if $filename == header-logo {
+      $char: "\E013";
+    }
+    @if $filename == login-active {
+      $char: "\E014";
+    }
+    @if $filename == login-inactive {
+      $char: "\E015";
+    }
+    @if $filename == menu-expand {
+      $char: "\E016";
+    }
+    @if $filename == open-close {
+      $char: "\E017";
+    }
+    @if $filename == pdf-download {
+      $char: "\E018";
+    }
+    @if $filename == scroll-down {
+      $char: "\E019";
+    }
+    @if $filename == scroll-left {
+      $char: "\E01A";
+    }
+    @if $filename == scroll-right {
+      $char: "\E01B";
+    }
+    @if $filename == search-global {
+      $char: "\E01C";
+    }
+    @if $filename == search-searchform {
+      $char: "\E01D";
+    }
+    @if $filename == share {
+      $char: "\E01E";
+    }
+    @if $filename == shopbasket-active {
+      $char: "\E01F";
+    }
+    @if $filename == shopbasket-inactive {
+      $char: "\E020";
+    }
+    @if $filename == twitter {
+      $char: "\E021";
+    }
+  
+  @return $char;
+  }
+  
+  @mixin icon-before ($filename, $insert: before, $extend: true) {
+    &:#{$insert} {
+      @if $extend {
+        @extend %icon;
+      } @else {
+        @include icon-styles;
+      }
+      content: icon-char($filename);
+    }
+  }
+  
+  .icon-before-arrow-left {
+  
+      @include icon-before(arrow-left);
+  
+    }
+  .icon-before-arrow-right {
+  
+      @include icon-before(arrow-right);
+  
+    }
+  .icon-before-bc-logo {
+  
+      @include icon-before(bc-logo);
+  
+    }
+  .icon-before-BC_Email {
+  
+      @include icon-before(BC_Email);
+  
+    }
+  .icon-before-BC_Facebook {
+  
+      @include icon-before(BC_Facebook);
+  
+    }
+  .icon-before-BC_Twitter {
+  
+      @include icon-before(BC_Twitter);
+  
+    }
+  .icon-before-bm-logo-sticky {
+  
+      @include icon-before(bm-logo-sticky);
+  
+    }
+  .icon-before-bm-logo {
+  
+      @include icon-before(bm-logo);
+  
+    }
+  .icon-before-button-arrow-left {
+  
+      @include icon-before(button-arrow-left);
+  
+    }
+  .icon-before-button-arrow-right {
+  
+      @include icon-before(button-arrow-right);
+  
+    }
+  .icon-before-carousel-indicator {
+  
+      @include icon-before(carousel-indicator);
+  
+    }
+  .icon-before-clear-search {
+  
+      @include icon-before(clear-search);
+  
+    }
+  .icon-before-close-overlay {
+  
+      @include icon-before(close-overlay);
+  
+    }
+  .icon-before-date {
+  
+      @include icon-before(date);
+  
+    }
+  .icon-before-dropdown {
+  
+      @include icon-before(dropdown);
+  
+    }
+  .icon-before-email {
+  
+      @include icon-before(email);
+  
+    }
+  .icon-before-facebook {
+  
+      @include icon-before(facebook);
+  
+    }
+  .icon-before-favicon {
+  
+      @include icon-before(favicon);
+  
+    }
+  .icon-before-header-logo {
+  
+      @include icon-before(header-logo);
+  
+    }
+  .icon-before-login-active {
+  
+      @include icon-before(login-active);
+  
+    }
+  .icon-before-login-inactive {
+  
+      @include icon-before(login-inactive);
+  
+    }
+  .icon-before-menu-expand {
+  
+      @include icon-before(menu-expand);
+  
+    }
+  .icon-before-open-close {
+  
+      @include icon-before(open-close);
+  
+    }
+  .icon-before-pdf-download {
+  
+      @include icon-before(pdf-download);
+  
+    }
+  .icon-before-scroll-down {
+  
+      @include icon-before(scroll-down);
+  
+    }
+  .icon-before-scroll-left {
+  
+      @include icon-before(scroll-left);
+  
+    }
+  .icon-before-scroll-right {
+  
+      @include icon-before(scroll-right);
+  
+    }
+  .icon-before-search-global {
+  
+      @include icon-before(search-global);
+  
+    }
+  .icon-before-search-searchform {
+  
+      @include icon-before(search-searchform);
+  
+    }
+  .icon-before-share {
+  
+      @include icon-before(share);
+  
+    }
+  .icon-before-shopbasket-active {
+  
+      @include icon-before(shopbasket-active);
+  
+    }
+  .icon-before-shopbasket-inactive {
+  
+      @include icon-before(shopbasket-inactive);
+  
+    }
+  .icon-before-twitter {
+  
+      @include icon-before(twitter);
+  
+    }
+  
+  
+  
+  @mixin icon-after ($filename, $insert: after, $extend: true) {
+  &:#{$insert} {
+    @if $extend {
+      @extend %icon;
+    } @else {
+      @include icon-styles;
+    }
+    content: icon-char($filename);
+  }
+  }
+  
+  .icon-after-arrow-left {
+  
+    @include icon-after(arrow-left);
+  
+  }
+  .icon-after-arrow-right {
+  
+    @include icon-after(arrow-right);
+  
+  }
+  .icon-after-bc-logo {
+  
+    @include icon-after(bc-logo);
+  
+  }
+  .icon-after-BC_Email {
+  
+    @include icon-after(BC_Email);
+  
+  }
+  .icon-after-BC_Facebook {
+  
+    @include icon-after(BC_Facebook);
+  
+  }
+  .icon-after-BC_Twitter {
+  
+    @include icon-after(BC_Twitter);
+  
+  }
+  .icon-after-bm-logo-sticky {
+  
+    @include icon-after(bm-logo-sticky);
+  
+  }
+  .icon-after-bm-logo {
+  
+    @include icon-after(bm-logo);
+  
+  }
+  .icon-after-button-arrow-left {
+  
+    @include icon-after(button-arrow-left);
+  
+  }
+  .icon-after-button-arrow-right {
+  
+    @include icon-after(button-arrow-right);
+  
+  }
+  .icon-after-carousel-indicator {
+  
+    @include icon-after(carousel-indicator);
+  
+  }
+  .icon-after-clear-search {
+  
+    @include icon-after(clear-search);
+  
+  }
+  .icon-after-close-overlay {
+  
+    @include icon-after(close-overlay);
+  
+  }
+  .icon-after-date {
+  
+    @include icon-after(date);
+  
+  }
+  .icon-after-dropdown {
+  
+    @include icon-after(dropdown);
+  
+  }
+  .icon-after-email {
+  
+    @include icon-after(email);
+  
+  }
+  .icon-after-facebook {
+  
+    @include icon-after(facebook);
+  
+  }
+  .icon-after-favicon {
+  
+    @include icon-after(favicon);
+  
+  }
+  .icon-after-header-logo {
+  
+    @include icon-after(header-logo);
+  
+  }
+  .icon-after-login-active {
+  
+    @include icon-after(login-active);
+  
+  }
+  .icon-after-login-inactive {
+  
+    @include icon-after(login-inactive);
+  
+  }
+  .icon-after-menu-expand {
+  
+    @include icon-after(menu-expand);
+  
+  }
+  .icon-after-open-close {
+  
+    @include icon-after(open-close);
+  
+  }
+  .icon-after-pdf-download {
+  
+    @include icon-after(pdf-download);
+  
+  }
+  .icon-after-scroll-down {
+  
+    @include icon-after(scroll-down);
+  
+  }
+  .icon-after-scroll-left {
+  
+    @include icon-after(scroll-left);
+  
+  }
+  .icon-after-scroll-right {
+  
+    @include icon-after(scroll-right);
+  
+  }
+  .icon-after-search-global {
+  
+    @include icon-after(search-global);
+  
+  }
+  .icon-after-search-searchform {
+  
+    @include icon-after(search-searchform);
+  
+  }
+  .icon-after-share {
+  
+    @include icon-after(share);
+  
+  }
+  .icon-after-shopbasket-active {
+  
+    @include icon-after(shopbasket-active);
+  
+  }
+  .icon-after-shopbasket-inactive {
+  
+    @include icon-after(shopbasket-inactive);
+  
+  }
+  .icon-after-twitter {
+  
+    @include icon-after(twitter);
+  
+  }
+  
